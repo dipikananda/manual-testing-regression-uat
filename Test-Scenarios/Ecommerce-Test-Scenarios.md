@@ -40,3 +40,21 @@ Functional testing will verify that the application's features behave according 
 ### Functional Testing Objective
 
 The functional test scenarios provide detailed coverage of the application's core business functions and will also provide the baseline for later regression testing.
+## 3. Negative Testing Scenarios
+
+Negative testing will verify how the application handles invalid, incomplete or unexpected user input.
+
+| Scenario ID | Scenario | Expected Outcome |
+|---|---|---|
+| TS-NT-001 | Verify login with blank username and password | Appropriate validation/error message should be displayed |
+| TS-NT-002 | Verify login with invalid username | Appropriate error message should be displayed |
+| TS-NT-003 | Verify login with invalid password | Appropriate error message should be displayed |
+| TS-NT-004 | Verify checkout with blank first name | First Name validation message should be displayed |
+| TS-NT-005 | Verify checkout with blank last name | Last Name validation message should be displayed |
+| TS-NT-006 | Verify checkout with blank postal code | Postal Code validation message should be displayed |
+| TS-NT-007 | Verify checkout with all mandatory fields blank | Appropriate validation message should be displayed and user should not proceed |
+| TS-NT-008 | Verify removing a product from an empty cart | Application should handle the action appropriately without breaking the workflow |
+
+### Negative Testing Objective
+
+The negative test scenarios will verify that invalid or incomplete user actions are handled correctly and that appropriate validation or error messages are displayed.
