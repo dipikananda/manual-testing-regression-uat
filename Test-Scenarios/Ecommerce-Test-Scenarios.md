@@ -106,3 +106,29 @@ A sanity test will be marked as:
 - **Fail** – The changed functionality remains incorrect or introduces an immediately observable issue.
 
 If sanity testing fails, broader regression testing may be paused until the issue is investigated.
+## 6. Regression Testing Scenarios
+
+Regression testing will verify that existing application functionality continues to work correctly after changes, fixes or enhancements.
+
+| Scenario ID | Scenario | Expected Outcome |
+|---|---|---|
+| TS-RG-001 | Verify user login after application changes | User should be able to log in successfully |
+| TS-RG-002 | Verify products are displayed correctly after changes | Product information should remain correct |
+| TS-RG-003 | Verify product sorting after application changes | All sorting options should continue to work correctly |
+| TS-RG-004 | Verify product selection and cart addition after changes | Selected products should be added correctly |
+| TS-RG-005 | Verify multiple products can be managed in the cart | All selected products should remain correctly displayed |
+| TS-RG-006 | Verify product removal from cart after changes | Selected products should be removed correctly |
+| TS-RG-007 | Verify checkout information submission after changes | Valid information should allow the user to continue |
+| TS-RG-008 | Verify order price calculations after changes | Item total, tax and final total should be calculated correctly |
+| TS-RG-009 | Verify order placement after changes | Valid order should be successfully placed |
+| TS-RG-010 | Verify order confirmation after changes | Correct order confirmation should be displayed |
+
+### Regression Testing Objective
+
+The objective of regression testing is to confirm that application changes and defect fixes have not introduced unintended problems into previously working functionality.
+
+Regression testing will cover the critical end-to-end customer workflow:
+
+**Login → Products → Cart → Checkout → Order Review → Order Placement → Confirmation**
+
+Regression results will be documented in the Test Execution section and linked to the relevant Test Case IDs.
