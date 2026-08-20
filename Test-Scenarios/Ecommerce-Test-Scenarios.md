@@ -58,3 +58,27 @@ Negative testing will verify how the application handles invalid, incomplete or 
 ### Negative Testing Objective
 
 The negative test scenarios will verify that invalid or incomplete user actions are handled correctly and that appropriate validation or error messages are displayed.
+## 4. Retesting Scenarios
+
+Retesting will be performed after defects identified during the initial test cycle have been addressed. The original failed test cases will be executed again to verify that the reported defects have been resolved.
+
+| Scenario ID | Scenario | Expected Outcome |
+|---|---|---|
+| TS-RT-001 | Retest previously failed login functionality after defect fix | Previously failed login test should now pass |
+| TS-RT-002 | Retest previously failed product functionality after defect fix | Previously failed product test should now pass |
+| TS-RT-003 | Retest previously failed cart functionality after defect fix | Previously failed cart test should now pass |
+| TS-RT-004 | Retest previously failed checkout functionality after defect fix | Previously failed checkout test should now pass |
+| TS-RT-005 | Retest previously failed order placement functionality after defect fix | Previously failed order placement test should now pass |
+
+### Retesting Objective
+
+The objective of retesting is to confirm that previously identified defects have been successfully resolved.
+
+Retesting will focus only on the specific failed functionality associated with the reported defect.
+
+A retest will be marked as:
+
+- **Pass** – The original defect is no longer reproducible and the expected result is achieved.
+- **Fail** – The defect remains reproducible or the expected result is still not achieved.
+
+Retesting results will be linked to the relevant Test Case ID and Bug ID in the Test Execution documentation.
