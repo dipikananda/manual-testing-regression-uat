@@ -82,3 +82,27 @@ A retest will be marked as:
 - **Fail** – The defect remains reproducible or the expected result is still not achieved.
 
 Retesting results will be linked to the relevant Test Case ID and Bug ID in the Test Execution documentation.
+## 5. Sanity Testing Scenarios
+
+Sanity testing will be performed after a change or defect fix to verify that the affected functionality and closely related functionality are working correctly before full regression testing begins.
+
+| Scenario ID | Scenario | Expected Outcome |
+|---|---|---|
+| TS-SN-001 | Verify the functionality affected by the latest defect fix | Corrected functionality should work as expected |
+| TS-SN-002 | Verify the related functionality connected to the defect fix | Related functionality should continue to work correctly |
+| TS-SN-003 | Verify navigation around the affected functionality | User should navigate correctly without errors |
+| TS-SN-004 | Verify data displayed by the affected functionality | Relevant information should be displayed correctly |
+| TS-SN-005 | Verify the primary user workflow affected by the change | Primary workflow should complete successfully |
+
+### Sanity Testing Objective
+
+The objective of sanity testing is to quickly determine whether the changed functionality is stable enough to proceed with broader regression testing.
+
+Sanity testing will be focused and limited to the affected area rather than covering the entire application.
+
+A sanity test will be marked as:
+
+- **Pass** – The changed functionality and relevant related functionality behave as expected.
+- **Fail** – The changed functionality remains incorrect or introduces an immediately observable issue.
+
+If sanity testing fails, broader regression testing may be paused until the issue is investigated.
