@@ -126,7 +126,38 @@ Regression testing will verify that existing application functionality continues
 ### Regression Testing Objective
 
 The objective of regression testing is to confirm that application changes and defect fixes have not introduced unintended problems into previously working functionality.
+## 7. User Acceptance Testing (UAT) Scenarios
 
+UAT will verify that the application supports the expected customer journey and satisfies the defined business acceptance criteria.
+
+| Scenario ID | Scenario | Acceptance Criteria |
+|---|---|---|
+| TS-UAT-001 | Verify customer can successfully log in | Customer can access the products page using valid credentials |
+| TS-UAT-002 | Verify customer can browse and select products | Customer can view products and select required items |
+| TS-UAT-003 | Verify customer can manage the shopping cart | Customer can add, review and remove products as required |
+| TS-UAT-004 | Verify customer can provide checkout information | Customer can enter valid required information and continue |
+| TS-UAT-005 | Verify customer can review the order before placing it | Order summary displays the selected products and correct pricing |
+| TS-UAT-006 | Verify customer can successfully place an order | Customer can complete the purchase successfully |
+| TS-UAT-007 | Verify customer receives order confirmation | Confirmation is displayed after successful order completion |
+
+### UAT Objective
+
+The objective of UAT is to confirm that the application meets the expected business and user requirements from an end-user perspective.
+
+The primary UAT workflow is:
+
+**Login → Browse Products → Select Products → Cart → Checkout → Order Review → Place Order → Confirmation**
+
+### UAT Acceptance
+
+A UAT scenario will be marked:
+
+- **Accepted** – The business/user acceptance criteria are satisfied.
+- **Rejected** – The acceptance criteria are not satisfied and further investigation or corrective action is required.
+
+UAT results will be documented in the Test Execution section.
+
+Final UAT acceptance will contribute to the overall release recommendation.
 Regression testing will cover the critical end-to-end customer workflow:
 
 **Login → Products → Cart → Checkout → Order Review → Order Placement → Confirmation**
