@@ -17,7 +17,7 @@ The Sauce Labs Fleece Jacket product displays incorrect product information when
 | Testing Type | Defect-focused Functional Testing |
 | Priority | High |
 | Severity | Major |
-| Status | Open |
+  Status | Open - Failed Test Case TC-056
 
 ## Preconditions
 
@@ -68,4 +68,14 @@ Customers using the affected account may see incorrect product information after
 ## Defect Status
 
 **Open — requires investigation and fix.**
+## Linked Test Case
 
+**TC-056 — Verify selected product details match the product displayed**
+
+**Execution Result:** Failed
+
+**Defect ID:** BUG-001
+
+## Defect Lifecycle
+
+**Open → Fix Required → Retest Pending**
