@@ -34,19 +34,19 @@ The Sauce Labs Backpack displays incorrect product details when opened using the
 
 ## Expected Result
 
-The product details page should display the correct information for Sauce Labs Backpack:
+The product details page should display:
 
-- Product name: **Sauce Labs Backpack**
-- Correct Backpack image
-- Correct Backpack description
-- Price: **$29.99**
+- Product name: Sauce Labs Backpack
+- Product image: Sauce Labs Backpack image
+- Product description: Sauce Labs Backpack description
+- Price: $29.99
 
 ## Actual Result
 
 The product details page displays incorrect information:
 
 - Product name: **Sauce Labs Fleece Jacket**
-- Product image: **Dog image**
+- Product image: **Sauce Labs Fleece Jacket image**
 - Product description: **Sauce Labs Fleece Jacket description**
 - Price: **$49.99**
 
