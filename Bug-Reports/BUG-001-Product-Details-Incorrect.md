@@ -79,3 +79,14 @@ Customers using the affected account may see incorrect product information after
 ## Defect Lifecycle
 
 **Open → Fix Required → Retest Pending**
+## Retest Result
+
+**Retest Test Case:** TC-056
+
+**Retest Result:** Failed
+
+**Actual Result:** Product detail information remains incorrect for Sauce Labs Fleece Jacket.
+
+**Defect Status:** Open
+
+**Conclusion:** BUG-001 remains unresolved and requires a fix before it can be closed.
