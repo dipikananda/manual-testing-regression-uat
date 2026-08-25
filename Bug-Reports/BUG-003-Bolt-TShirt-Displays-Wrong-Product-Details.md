@@ -57,3 +57,12 @@ Customers may receive incorrect product information when selecting the Bolt T-Sh
 ## Defect Status
 
 **Open — requires investigation and fix.**
+## Retest Result
+
+**Retest Result:** Failed
+
+**Actual Result:** The same incorrect product-detail mapping remains reproducible.
+
+**Defect Status:** Open
+
+**Conclusion:** The defect remains unresolved and requires a fix before closure.
